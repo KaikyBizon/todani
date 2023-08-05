@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#conteudo{
+    background: #a0ff7a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+}

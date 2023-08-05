@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Namora cmg</title>
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Aceita namorar comigo?</h1>
+        <button class="btn" onclick="sim()">SIM</button>
+        <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)">NÃO</button>
+    </div>
+</body>
+
+<script>
+    function sim(){
+        alert("Isso não era um teste  :)")
+    }
+    function desvia(t){
+        var btn = t;
+        btn.style.position = 'absolute';
+        btn.style.bottom = geraPosicao(10, 90);
+        btn.style.left = geraPosicao(10, 90);
+    }
+    function geraPosicao(min, max) {
+        return (Math.random() * (max - min) + min) + '%';
+    }
+    
+</script>
+</html>
